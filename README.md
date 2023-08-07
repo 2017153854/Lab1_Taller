@@ -33,4 +33,7 @@ En una grabación de audio, el piso de ruido de la señal suele estar predominad
 7. ¿Cuáles son las tasas de muestreo más populares para grabaciones de audio? ¿La cantidad de bits por muestra?
 Las tasas de muestreo más populares para grabaciones de audio son 44.1 kHz, 48 kHz, 96 kHz y 192 kHz. La cantidad de bits por muestra, comúnmente conocida como resolución, suele ser de 16 bits o 24 bits. Tasas de muestreo más altas y una mayor resolución permiten una mayor calidad de audio y una reproducción más precisa de las señales analógicas originales.
 
+9. ¿Cuáles son las tasas de muestreo más populares para grabaciones de audio? ¿La cantidad de bits por muestra?
+Las tasas de muestreo más populares para grabaciones de audio son 44.1 kHz, 48 kHz, 96 kHz y 192 kHz. La cantidad de bits por muestra, comúnmente conocida como resolución, suele ser de 16 bits o 24 bits. Tasas de muestreo más altas y una mayor resolución permiten una mayor calidad de audio y una reproducción más precisa de las señales analógicas originales.
+
 Harvey, D. (2022). 5.2: Fuentes de ruido instrumental. LibreTexts Español. https://espanol.libretexts.org/Quimica/Qu%C3%ADmica_Anal%C3%ADtica/An%C3%A1lisis_Instrumental_(LibreTextos)/05%3A_Se%C3%B1ales_y_Ruido/5.02%3A_Fuentes_de_Ruido_Instrumental
