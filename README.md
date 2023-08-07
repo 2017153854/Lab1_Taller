@@ -30,8 +30,25 @@ P ruido térmico (dBm) = 10*log( P ruido térmico (W) / 1 mW ) = -124.8 dBm
 5. ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
 En una grabación de audio, el piso de ruido de la señal suele estar predominado por el ruido de cuantización, especialmente cuando se utiliza una baja profundidad de bits por muestra (por ejemplo, 8 bits) en la digitalización. El ruido de cuantización es más evidente en señales de baja amplitud o en grabaciones con una relación señal-ruido (SNR) baja.
 
-7. ¿Cuáles son las tasas de muestreo más populares para grabaciones de audio? ¿La cantidad de bits por muestra?
+6. ¿Cuáles son las tasas de muestreo más populares para grabaciones de audio? ¿La cantidad de bits por muestra?
 Las tasas de muestreo más populares para grabaciones de audio son 44.1 kHz, 48 kHz, 96 kHz y 192 kHz. La cantidad de bits por muestra, comúnmente conocida como resolución, suele ser de 16 bits o 24 bits. Tasas de muestreo más altas y una mayor resolución permiten una mayor calidad de audio y una reproducción más precisa de las señales analógicas originales.
+
+7. ¿Cuáles son los formatos de audio cuya compresión o almacenamiento no agrega distorsión?
+Los formatos de audio sin compresión, como WAV (PCM sin comprimir) o FLAC (Free Lossless Audio Codec), no agregan distorsión al sonido original, ya que mantienen una representación fiel de la señal de audio sin pérdida de calidad. Sin embargo, los formatos de audio comprimidos, como MP3 u otros formatos con pérdida, pueden introducir distorsión en la señal debido a la eliminación selectiva de datos para reducir el tamaño del archivo.
+
+
+8. ¿Cómo se puede utilizar un barrido de frecuencias para modelar la respuesta en frecuencia de un dispositivo bajo prueba (DUT)? Investigue el procedimiento a realizar a cada grabación de audio para tener la estimación de la respuesta en frecuencia.
+Un barrido de frecuencias se utiliza para medir la respuesta en frecuencia de un dispositivo bajo prueba (DUT). Para hacer esto con una grabación de audio, se puede realizar el siguiente procedimiento:
+
+a) Generar una señal de prueba, por ejemplo, un tono puro de una frecuencia específica.
+
+b) Reproducir la señal de prueba a través del DUT.
+
+c) Grabar la salida del DUT utilizando un micrófono o una interfaz de audio.
+
+d) Analizar la grabación resultante utilizando un software de análisis de audio para obtener la respuesta en frecuencia del DUT.
+
+El resultado del análisis mostrará cómo el DUT responde a diferentes frecuencias y permitirá identificar cualquier atenuación o realce en ciertas frecuencias específicas. Este procedimiento es útil para evaluar la calidad y la linealidad de dispositivos como altavoces, auriculares o amplificadores de audio.
 
 9. ¿Cuáles son las tasas de muestreo más populares para grabaciones de audio? ¿La cantidad de bits por muestra?
 Las tasas de muestreo más populares para grabaciones de audio son 44.1 kHz, 48 kHz, 96 kHz y 192 kHz. La cantidad de bits por muestra, comúnmente conocida como resolución, suele ser de 16 bits o 24 bits. Tasas de muestreo más altas y una mayor resolución permiten una mayor calidad de audio y una reproducción más precisa de las señales analógicas originales.
