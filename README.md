@@ -12,9 +12,8 @@ Dado que la Signal-to-Noise Ratio (SNR) es “la proporción existente entre la 
 SNR (dB) = 10 * log10(Potencia de la señal / Potencia del ruido)
 Ejemplo: Si se determinase en el laboratorio que una señal analógica cuenta con una potencia de 1 W y que la potencia del ruido es de 0.01 W, el SNR sería:
 
-\begin(equation)
   SNR (dB) = 10 * log10(1 W / 0.01 W) = 10 * log10(100) = 20 dB 
-\end(equation)
+
 
 
 2. ¿Cuál es el ancho de banda típico para señales de audio? ¿Una señal de audio tiene componente DC?
