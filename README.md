@@ -57,7 +57,7 @@ Las circunstancias por las que el ruido de cuantización se podría modelar como
 
 
 
-6. ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
+5. ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
 
   En una grabación de audio, el piso de ruido de la señal suele estar predominado por el ruido de cuantización, especialmente cuando se utiliza una baja profundidad de bits por muestra (por ejemplo, 8 bits) en la digitalización. El ruido de cuantización es más evidente en señales de baja amplitud o en grabaciones con una relación señal-ruido (SNR) baja.
 
