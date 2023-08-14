@@ -14,11 +14,11 @@ Ejemplo: Si se determinase en el laboratorio que una señal analógica cuenta co
 
   SNR (dB) = 10 * log10(1 W / 0.01 W) = 10 * log10(100) = 20 dB 
   
-\begin{equation}
- SNR (dB) = 10 * log10(\frac{1 W}{0.01 W})
- SNR (dB) = 10 * log10(100)
- SNR (dB) = 20 dB
-\end{equation}
+      \begin{equation}
+       SNR (dB) = 10 * log10(\frac{1 W}{0.01 W})
+       SNR (dB) = 10 * log10(100)
+       SNR (dB) = 20 dB
+      \end{equation}
 
 2. ¿Cuál es el ancho de banda típico para señales de audio? ¿Una señal de audio tiene componente DC?
 
