@@ -32,13 +32,18 @@ Ejemplo: Si se determinase en el laboratorio que una señal analógica cuenta co
   Para una impedancia de 50 Ω y un ancho de banda de 20 KHz, el nivel de ruido térmico, expresado en dBm (decibelios respecto a 1 miliwatio), se puede calcular realizando los siguientes pasos:
 
       A.    Calcular la tensión RMS de ruido térmico (asumir 300 Kelvins como temperatura ambiente y k es la constante de boltzman) 
-            Vrms = √(4kTRΔf) = √[4(1.380649*10^-23 K/J)(300 K)(50 Ω)(20 KHz)] = 0.129 µV
+            
+                Vrms = √(4kTRΔf) = √[4(1.380649*10^-23 K/J)(300 K)(50 Ω)(20 KHz)] = 0.129 µV
 
       B.    Luego, se debe calcular su respectiva potencia promedio en Watts
-            P ruido térmico (W) = [ (Vrms)^2 ] / R = [ (0.129 )^2 µV] / 50 Ω = 0.331*10^-15
+            P ruido térmico (W) 
+            
+                P (W) = [ (Vrms)^2 ] / R = [ (0.129 )^2 µV] / 50 Ω = 0.331*10^-15
 
       C.    Por último, calcular la potencia de ruido térmico en dBm
-            P ruido térmico (dBm) = 10*log( P ruido térmico (W) / 1 mW ) = -124.8 dBm
+            P ruido térmico (dBm) 
+            
+                P (dBm) = 10*log( P ruido térmico (W) / 1 mW ) = -124.8 dBm
 
 
 4. ¿Qué es ruido de cuantización? ¿Bajo qué circunstancias se podría modelar como ruido aditivo?
