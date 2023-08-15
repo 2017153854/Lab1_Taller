@@ -70,10 +70,10 @@ Las circunstancias por las que el ruido de cuantización se podría modelar como
 8. ¿Cómo se puede utilizar un barrido de frecuencias para modelar la respuesta en frecuencia de un dispositivo bajo prueba (DUT)? Investigue el procedimiento a realizar a cada grabación de audio para tener la estimación de la respuesta en frecuencia.
 Un barrido de frecuencias se utiliza para medir la respuesta en frecuencia de un dispositivo bajo prueba (DUT). Para hacer esto con una grabación de audio, se puede realizar el siguiente procedimiento:
 
-    1. Generar una señal de prueba, por ejemplo, un tono puro de una frecuencia específica.
-    2. Reproducir la señal de prueba a través del DUT.
-    3. Grabar la salida del DUT utilizando un micrófono o una interfaz de audio.
-    4. Analizar la grabación resultante utilizando un software de análisis de audio para obtener la respuesta en frecuencia del DUT.
+1. Generar una señal de prueba, por ejemplo, un tono puro de una frecuencia específica
+2. Reproducir la señal de prueba a través del DUT.
+3. Grabar la salida del DUT utilizando un micrófono o una interfaz de audio.
+4. Analizar la grabación resultante utilizando un software de análisis de audio para obtener la respuesta en frecuencia del DUT.
 
 El resultado del análisis mostrará cómo el DUT responde a diferentes frecuencias y permitirá identificar cualquier atenuación o realce en ciertas frecuencias específicas. Este procedimiento es útil para evaluar la calidad y la linealidad de dispositivos como altavoces, auriculares o amplificadores de audio.
 
