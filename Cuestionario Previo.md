@@ -78,9 +78,13 @@ D. Analizar la grabación resultante utilizando un software de análisis de audi
 El resultado del análisis mostrará cómo el DUT responde a diferentes frecuencias y permitirá identificar cualquier atenuación o realce en ciertas frecuencias específicas. Este procedimiento es útil para evaluar la calidad y la linealidad de dispositivos como altavoces, auriculares o amplificadores de audio.
 
 # Referencias 
+
 [1] https://recursoinformatico.weebly.com/uploads/1/0/7/3/107381475/snr.pdf
+
 [2] W. Sears, M.W. Zemansky, H.D. Young y R.A. Freedman. (2009). Física Universitaria. 12Ed. Vol 1. Pearson Education
+
 [3] Harvey, D. (2022). 5.2: Fuentes de ruido instrumental. LibreTexts Español. https://espanol.libretexts.org/Quimica/Qu%C3%ADmica_Anal%C3%ADtica/An%C3%A1lisis_Instrumental_(LibreTextos)/05%3A_Se%C3%B1ales_y_Ruido/5.02%3A_Fuentes_de_Ruido_Instrumental
+
 [4] Makemydownloads. (2021, 4 marzo). Cuantización. INGENIERIA DE TELECOMUNICACIONES. https://aiturrih.com/sistema-de-comunicaciones/quantizacion/
 
 
