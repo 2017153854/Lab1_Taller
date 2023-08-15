@@ -13,7 +13,7 @@
 #Elaborado por:
 #-Alexander Castro Lara 2017153854
 #-Andrés Carrillo Arroyo 2017106733
-#-Kopper
+#-Douglas Kopper 2017220194
 #-Steven
 #########################################
 
