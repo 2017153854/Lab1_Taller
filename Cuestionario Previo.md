@@ -6,13 +6,7 @@ A continuación, se en listan las preguntas con sus respectivas respuestas:
 
   Dado que la Signal-to-Noise Ratio (SNR) es “la proporción existente entre la potencia de la señal de referencia o en estudio y la potencia del ruido que la corrompe” [1], entonces por definición la manera de calcularla será haciendo una medición de la potencia de la señal que nos interesa, para posterior a ello dividirla entre la potencia del ruido presente. Asimismo, la SNR es una cantidad expresada generalmente en decibelios (dB), por lo que la fórmula completa queda de la siguiente manera:
 
-\[
-\text{SNR (dB)} = 10 \cdot \log_{10}\left(\frac{\text{Potencia de la señal}}{\text{Potencia del ruido}}\right)
-\]
-
-Donde:
-- \(\text{Potencia de la señal}\) es la potencia total de la señal.
-- \(\text{Potencia del ruido}\) es la potencia total del ruido presente en la señal.
+$SNR (dB) = 10 * log10(Potencia de la señal / Potencia del ruido)$
 
 Ejemplo: Si se determinase en el laboratorio que una señal analógica cuenta con una potencia de 1 W y que la potencia del ruido es de 0.01 W, el SNR sería:
 
