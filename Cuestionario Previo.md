@@ -28,7 +28,7 @@ $SNR (dB) = 10 * log10(1 W / 0.01 W) = 10 * log10(100) = 20 dB$
 
       A.    Calcular la tensión RMS de ruido térmico (asumir 300 Kelvins como temperatura ambiente y k es la constante de boltzman) 
             
-                $Vrms = √(4kTRΔf) = √[4(1.380649*10^-23 K/J)(300 K)(50 Ω)(20 KHz)] = 0.129 µV$
+                Vrms = √(4kTRΔf) = √[4(1.380649*10^-23 K/J)(300 K)(50 Ω)(20 KHz)] = 0.129 µV
 
       B.    Luego, se debe calcular su respectiva potencia promedio en Watts
             P ruido térmico (W) 
