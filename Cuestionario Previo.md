@@ -1,6 +1,8 @@
 # Cuestionario Previo
 
+
 A continuación, se en listan las preguntas con sus respectivas respuestas:
+
 
 1. ¿Cómo se mide el signal-to-noise ratio (SNR) para una señal analógica? Brinde un ejemplo.
 
@@ -10,13 +12,8 @@ $SNR (dB) = 10 * log10(Potencia de la señal / Potencia del ruido)$
 
 Ejemplo: Si se determinase en el laboratorio que una señal analógica cuenta con una potencia de 1 W y que la potencia del ruido es de 0.01 W, el SNR sería:
 
-  SNR (dB) = 10 * log10(1 W / 0.01 W) = 10 * log10(100) = 20 dB 
-  
-      \begin{equation}
-       SNR (dB) = 10 * log10(\frac{1 W}{0.01 W})
-       SNR (dB) = 10 * log10(100)
-       SNR (dB) = 20 dB
-      \end{equation}
+$SNR (dB) = 10 * log10(1 W / 0.01 W) = 10 * log10(100) = 20 dB$ 
+
 
 2. ¿Cuál es el ancho de banda típico para señales de audio? ¿Una señal de audio tiene componente DC?
 
@@ -73,20 +70,17 @@ Las circunstancias por las que el ruido de cuantización se podría modelar como
 8. ¿Cómo se puede utilizar un barrido de frecuencias para modelar la respuesta en frecuencia de un dispositivo bajo prueba (DUT)? Investigue el procedimiento a realizar a cada grabación de audio para tener la estimación de la respuesta en frecuencia.
 Un barrido de frecuencias se utiliza para medir la respuesta en frecuencia de un dispositivo bajo prueba (DUT). Para hacer esto con una grabación de audio, se puede realizar el siguiente procedimiento:
 
-a) Generar una señal de prueba, por ejemplo, un tono puro de una frecuencia específica.
-
-b) Reproducir la señal de prueba a través del DUT.
-
-c) Grabar la salida del DUT utilizando un micrófono o una interfaz de audio.
-
-d) Analizar la grabación resultante utilizando un software de análisis de audio para obtener la respuesta en frecuencia del DUT.
+A. Generar una señal de prueba, por ejemplo, un tono puro de una frecuencia específica.
+B. Reproducir la señal de prueba a través del DUT.
+C. Grabar la salida del DUT utilizando un micrófono o una interfaz de audio.
+D. Analizar la grabación resultante utilizando un software de análisis de audio para obtener la respuesta en frecuencia del DUT.
 
 El resultado del análisis mostrará cómo el DUT responde a diferentes frecuencias y permitirá identificar cualquier atenuación o realce en ciertas frecuencias específicas. Este procedimiento es útil para evaluar la calidad y la linealidad de dispositivos como altavoces, auriculares o amplificadores de audio.
 
-Referencias 
+# Referencias 
 [1] https://recursoinformatico.weebly.com/uploads/1/0/7/3/107381475/snr.pdf
 [2] W. Sears, M.W. Zemansky, H.D. Young y R.A. Freedman. (2009). Física Universitaria. 12Ed. Vol 1. Pearson Education
-[3] 
+[3] Harvey, D. (2022). 5.2: Fuentes de ruido instrumental. LibreTexts Español. https://espanol.libretexts.org/Quimica/Qu%C3%ADmica_Anal%C3%ADtica/An%C3%A1lisis_Instrumental_(LibreTextos)/05%3A_Se%C3%B1ales_y_Ruido/5.02%3A_Fuentes_de_Ruido_Instrumental
 [4] Makemydownloads. (2021, 4 marzo). Cuantización. INGENIERIA DE TELECOMUNICACIONES. https://aiturrih.com/sistema-de-comunicaciones/quantizacion/
 
 
