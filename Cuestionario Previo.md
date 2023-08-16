@@ -68,7 +68,7 @@ Las circunstancias por las que el ruido de cuantización se podría modelar como
 
 
 8. ¿Cómo se puede utilizar un barrido de frecuencias para modelar la respuesta en frecuencia de un dispositivo bajo prueba (DUT)? Investigue el procedimiento a realizar a cada grabación de audio para tener la estimación de la respuesta en frecuencia.
-Un barrido de frecuencias se utiliza para medir la respuesta en frecuencia de un dispositivo bajo prueba (DUT). Para hacer esto con una grabación de audio, se puede realizar el siguiente procedimiento:
+Un barrido de frecuencias se utiliza para medir la respuesta en frecuencia de un dispositivo bajo prueba (DUT). Para hacer esto con una grabación de audio, se puede realizar el siguiente procedimiento [6]:
 
     1. Generar una señal de prueba, por ejemplo, un tono puro de una frecuencia específica
     2. Reproducir la señal de prueba a través del DUT.
@@ -79,11 +79,12 @@ El resultado del análisis mostrará cómo el DUT responde a diferentes frecuenc
 
 ## Bibliografía 
 
-1. https://recursoinformatico.weebly.com/uploads/1/0/7/3/107381475/snr.pdf
-2. W. Sears, M.W. Zemansky, H.D. Young y R.A. Freedman. (2009). Física Universitaria. 12Ed. Vol 1. Pearson Education
-3. Harvey, D. (2022). 5.2: Fuentes de ruido instrumental. LibreTexts Español. https://espanol.libretexts.org/Quimica/Qu%C3%ADmica_Anal%C3%ADtica/An%C3%A1lisis_Instrumental_(LibreTextos)/05%3A_Se%C3%B1ales_y_Ruido/5.02%3A_Fuentes_de_Ruido_Instrumental
-4. Makemydownloads. (2021, 4 marzo). Cuantización. INGENIERIA DE TELECOMUNICACIONES. https://aiturrih.com/sistema-de-comunicaciones/quantizacion/
-5. Alejandro Alcalde, "¿Cuál es la diferencia entre los distintos formatos de audio y cuál debería elegir?" El Baúl del Programador. [En línea]. Disponible en: https://elbauldelprogramador.com/cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/. 
+[1] https://recursoinformatico.weebly.com/uploads/1/0/7/3/107381475/snr.pdf
+[2] W. Sears, M.W. Zemansky, H.D. Young y R.A. Freedman. (2009). Física Universitaria. 12Ed. Vol 1. Pearson Education
+[3] Harvey, D. (2022). 5.2: Fuentes de ruido instrumental. LibreTexts Español. https://espanol.libretexts.org/Quimica/Qu%C3%ADmica_Anal%C3%ADtica/An%C3%A1lisis_Instrumental_(LibreTextos)/05%3A_Se%C3%B1ales_y_Ruido/5.02%3A_Fuentes_de_Ruido_Instrumental
+[4] Makemydownloads. (2021, 4 marzo). Cuantización. INGENIERIA DE TELECOMUNICACIONES. https://aiturrih.com/sistema-de-comunicaciones/quantizacion/
+[5] Alejandro Alcalde, "¿Cuál es la diferencia entre los distintos formatos de audio y cuál debería elegir?" El Baúl del Programador. [En línea]. Disponible en: https://elbauldelprogramador.com/cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/.
+[6] NTi Audio. "Lo que siempre quiso saber sobre los barridos (sweeps)". NTi Audio - Servicio - Conocimientos. Disponible en: https://www.nti-audio.com/es/servicio/conocimientos/lo-que-siempre-quiso-saber-sobre-los-barridos-sweeps.
 
 
 
