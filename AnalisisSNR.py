@@ -18,13 +18,30 @@
 #########################################
 
 
-#########################################
+##########################################
 #---------LIBRERÍAS A UTILIZAR-----------#
 import numpy as np
 import matplotlib.pyplot as plt 
 from scipy.io import wavfile
 import requests as req
 from io import BytesIO
+##########################################
+
+
+
+##########################################
+#---------METODOLOGÍA-----------#
+# 1. Cargar las grabaciones de los micrófonos (celular y laptop) desde archivos.
+# 2. Cargar el tono de referencia de 1 kHz desde un archivo.
+# 3. Definir un intervalo de tiempo en el que se encuentra el tono de referencia en las grabaciones.
+# 4. Extraer las partes correspondientes de las grabaciones y del tono de referencia.
+# 5. Calcular la potencia de la señal de referencia (tono de 1 kHz).
+# 6. Para cada grabación de micrófono:
+#     6.1 Calcular la potencia de la señal en el mismo intervalo de tiempo.
+#     6.2 Calcular la relación señal-ruido (SNR) utilizando la potencia de la señal y la potencia del ruido.
+# 9. Mostrar el valor del SNR para cada micrófono.
+##########################################
+
 
 # Crea la variable con la URL de los datos
 raw_wav_url_micro_1 = 'https://raw.githubusercontent.com/2017153854/Lab1_Taller/43b31a203f2045f209f52764331c40fe90895d6e/microA.wav'
@@ -36,7 +53,7 @@ respuesta_micro_1 = req.get(raw_wav_url_micro_1)
 respuesta_micro_2 = req.get(raw_wav_url_micro_2)
 respuesta_reference = req.get(raw_wav_url_reference)
 
-# Convierte los audios en señales para numpy
+# Convierte los audios en señales para numpy (matriz de enteros de 16 bits)
 micro_1 = np.frombuffer(respuesta_micro_1.content, dtype=np.int16)
 micro_2 = np.frombuffer(respuesta_micro_2.content, dtype=np.int16)
 reference = np.frombuffer(respuesta_reference.content, dtype=np.int16)
@@ -58,21 +75,10 @@ reference_amplitude = fft_reference[reference_frequency_index]
 snr_micro_1 = fft_micro_1[reference_frequency_index] / reference_amplitude
 snr_micro_2 = fft_micro_2[reference_frequency_index] / reference_amplitude
 
+#Visualización de resultados
 print("SNR Microfono Celular:", snr_micro_1)
 print("SNR Microfono Computadora:", snr_micro_2)
 
-
-# Visualizar los resultados
-#plt.figure()
-#plt.plot(frecuencias, fft_micro_1, label='Micrófono Celular')
-#plt.plot(frecuencias, fft_micro_2, label='Micrófono Computadora')
-#plt.xlabel('Frecuencia (Hz)')
-#plt.ylabel('Amplitud')
-#plt.title('Respuesta en Frecuencia de los Micrófonos')
-#plt.legend()
-#plt.grid()
-#plt.ylim(0, 100000000)
-#plt.show()
 
 
 
