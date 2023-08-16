@@ -64,7 +64,7 @@ Las circunstancias por las que el ruido de cuantización se podría modelar como
 
 7. ¿Cuáles son los formatos de audio cuya compresión o almacenamiento no agrega distorsión?
 
-  Los formatos de audio sin compresión, como WAV (PCM sin comprimir) o FLAC (Free Lossless Audio Codec), no agregan distorsión al sonido original, ya que mantienen una representación fiel de la señal de audio sin pérdida de calidad. Sin embargo, los formatos de audio comprimidos, como MP3 u otros formatos con pérdida, pueden introducir distorsión en la señal debido a la eliminación selectiva de datos para reducir el tamaño del archivo.
+  Los formatos de audio sin compresión, como WAV (PCM sin comprimir) o FLAC (Free Lossless Audio Codec), no agregan distorsión al sonido original, ya que mantienen una representación fiel de la señal de audio sin pérdida de calidad. Sin embargo, los formatos de audio comprimidos, como MP3 u otros formatos con pérdida, pueden introducir distorsión en la señal debido a la eliminación selectiva de datos para reducir el tamaño del archivo [5].
 
 
 8. ¿Cómo se puede utilizar un barrido de frecuencias para modelar la respuesta en frecuencia de un dispositivo bajo prueba (DUT)? Investigue el procedimiento a realizar a cada grabación de audio para tener la estimación de la respuesta en frecuencia.
@@ -83,6 +83,7 @@ El resultado del análisis mostrará cómo el DUT responde a diferentes frecuenc
 2. W. Sears, M.W. Zemansky, H.D. Young y R.A. Freedman. (2009). Física Universitaria. 12Ed. Vol 1. Pearson Education
 3. Harvey, D. (2022). 5.2: Fuentes de ruido instrumental. LibreTexts Español. https://espanol.libretexts.org/Quimica/Qu%C3%ADmica_Anal%C3%ADtica/An%C3%A1lisis_Instrumental_(LibreTextos)/05%3A_Se%C3%B1ales_y_Ruido/5.02%3A_Fuentes_de_Ruido_Instrumental
 4. Makemydownloads. (2021, 4 marzo). Cuantización. INGENIERIA DE TELECOMUNICACIONES. https://aiturrih.com/sistema-de-comunicaciones/quantizacion/
+5. Alejandro Alcalde, "¿Cuál es la diferencia entre los distintos formatos de audio y cuál debería elegir?" El Baúl del Programador. [En línea]. Disponible en: https://elbauldelprogramador.com/cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/. 
 
 
 
