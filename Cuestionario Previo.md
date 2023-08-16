@@ -79,11 +79,16 @@ El resultado del análisis mostrará cómo el DUT responde a diferentes frecuenc
 
 ## Bibliografía 
 
-[1] https://recursoinformatico.weebly.com/uploads/1/0/7/3/107381475/snr.pdf
+[1]  Recursoinformatico. (2019). SNR Measurement in Wireless Communication Systems. Available: https://recursoinformatico.weebly.com/uploads/1/0/7/3/107381475/snr.pdf
+
 [2] W. Sears, M.W. Zemansky, H.D. Young y R.A. Freedman. (2009). Física Universitaria. 12Ed. Vol 1. Pearson Education
+
 [3] Harvey, D. (2022). 5.2: Fuentes de ruido instrumental. LibreTexts Español. https://espanol.libretexts.org/Quimica/Qu%C3%ADmica_Anal%C3%ADtica/An%C3%A1lisis_Instrumental_(LibreTextos)/05%3A_Se%C3%B1ales_y_Ruido/5.02%3A_Fuentes_de_Ruido_Instrumental
+
 [4] Makemydownloads. (2021, 4 marzo). Cuantización. INGENIERIA DE TELECOMUNICACIONES. https://aiturrih.com/sistema-de-comunicaciones/quantizacion/
+
 [5] Alejandro Alcalde, "¿Cuál es la diferencia entre los distintos formatos de audio y cuál debería elegir?" El Baúl del Programador. [En línea]. Disponible en: https://elbauldelprogramador.com/cual-es-la-diferencia-entre-los-distintos-formatos-de-audio-y-cual-deberia-elegir/.
+
 [6] NTi Audio. "Lo que siempre quiso saber sobre los barridos (sweeps)". NTi Audio - Servicio - Conocimientos. Disponible en: https://www.nti-audio.com/es/servicio/conocimientos/lo-que-siempre-quiso-saber-sobre-los-barridos-sweeps.
 
 
