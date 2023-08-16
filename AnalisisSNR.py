@@ -1,3 +1,25 @@
+#########################################
+#---------Información General-----------#
+
+#Tecnológico de Costa Rica
+#Escuela de Electrónica
+
+#Curso EL-5822 Taller de Instrumentación
+#Prof. Kaleb Alfaro Badilla
+
+# Laboratorio 1: Introducción a Taller de Instrumentación
+# Parte 2: CÁLCULO DEL SNR
+
+#Elaborado por:
+#-Alexander Castro Lara 2017153854
+#-Andrés Carrillo Arroyo 2017106733
+#-Douglas Kopper 2017220194
+#-Steven Arias 2017097670
+#########################################
+
+
+#########################################
+#---------LIBRERÍAS A UTILIZAR-----------#
 import numpy as np
 import matplotlib.pyplot as plt 
 from scipy.io import wavfile
